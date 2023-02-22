@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/helpers/*": ["libs/helpers/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
